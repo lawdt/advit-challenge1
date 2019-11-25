@@ -10,6 +10,9 @@
 # ---windows example:
 # set AWS_ACCESS_KEY_ID=REPLACE_ME
 # set AWS_SECRET_ACCESS_KEY=REPLACE_ME
+# ---windows PowerShell example:
+# $env:AWS_ACCESS_KEY_ID="REPLACE_ME"
+# $env:AWS_SECRET_ACCESS_KEY="REPLACE_ME"
 # ---linux example:
 # export AWS_ACCESS_KEY_ID=REPLACE_ME
 # export AWS_SECRET_ACCESS_KEY=REPLACE_ME
