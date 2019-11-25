@@ -17,4 +17,7 @@ export AWS_ACCESS_KEY_ID=REPLACE_ME\
 export AWS_SECRET_ACCESS_KEY=REPLACE_ME
 
 also set variable parameters in file terraform.tfvars.example and rename it to terraform.tfvars
+-
+and please make shure used Amazon Machine Image (AMI) exist in your region
+-
 ----------------------------
