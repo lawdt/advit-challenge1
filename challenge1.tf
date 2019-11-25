@@ -18,11 +18,31 @@
 # --------------------------------------------------------------------------------------------------
 
 provider "aws" {
-
+  region = var.region
 }
 
 data "template_file" "myuserdata" {
   template = "${file("${path.cwd}/myuserdata.tpl")}"
+}
+
+variable "region" {
+  type = string
+}
+
+variable "keypair_name" {
+  type = string
+}
+
+variable "instance_type" {
+  type = string
+}
+
+variable "vpc_id" {
+  type = string
+}
+
+variable "subnets" {
+  type = list(string)
 }
 
 resource "aws_eip" "advit" {
